@@ -3,6 +3,9 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", Arial,
     Helvetica, sans-serif;
 }
+.body{
+  background-color: #1a1a1a;
+}
 .work {
   font-size: 1.75rem;
   display: flex;
@@ -10,7 +13,7 @@ body {
 }
 
 mat-card {
-  margin: 4% 15% 0 15%;
+  margin: 1% 15% 0 15%;
   text-align: center;
 
   p {
@@ -29,19 +32,23 @@ mat-card {
 }
 
 svg {
-  margin-top: -8.4vw;
+  margin-top: -10vw;
   right: 0;
   left: 0;
+  bottom: 0;
 }
 
 .um {
   animation: ondaUm 4.5s ease-in-out infinite alternate;
+
 }
 .dois {
+
   opacity: 70%;
   animation: ondaDois 4s ease-in-out infinite alternate;
 }
 .tres {
+
   opacity: 50%;
   animation: ondaTres 3s ease-in-out infinite alternate;
 }
