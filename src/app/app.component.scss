@@ -1,0 +1,27 @@
+.botoes {
+  margin-left: 65vw;
+  button {
+    margin-left: 1vw;
+  }
+}
+mat-toolbar {
+  button {
+    background-color: #ff0;
+    color: #000;
+  }
+  font-size: 2rem;
+  span {
+    margin-left: 1vw;
+  }
+  .footer {
+    font-size: 1rem;
+
+    a {
+      button {
+        background-color: #ff0;
+        color: #000;
+      }
+    }
+
+  }
+}
