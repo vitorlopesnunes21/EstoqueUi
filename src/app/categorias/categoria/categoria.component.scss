@@ -1,6 +1,27 @@
+
+body{
+  background-color: #1a1a1a;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", Arial,
+    Helvetica, sans-serif;
+}
 .work{
+  color: #fff;
   margin-top: 2vw;
-  font-size: 3rem;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
+}
+table {
+  width: 75%;
+
+  margin: 0 12vw 0 12vw;
+  box-shadow: 2px 2px 4px 0;
+  th{
+    font-size: 1rem;
+  }
+  td{
+    font-size: 1.2rem;
+  }
+  padding: 10px;
+  border: 10px solid #ff0000;
 }
